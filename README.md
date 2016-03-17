@@ -1,2 +1,2 @@
 # maven-push
-Maven push android library gradle script files in Android Studio
+Maven push android library gradle script files for Android Studio
