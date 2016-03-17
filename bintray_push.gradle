@@ -43,6 +43,8 @@ install {
                     connection POM_SCM_CONNECTION
                     developerConnection POM_SCM_DEV_CONNECTION
                 }
+
+// Replace all developers with yours
                 developers {
                     developer {
                         id 'ThePacific'
@@ -85,7 +87,13 @@ bintray {
     publish true
     pkg {
         repo = "maven"
+
+// Replace library name with yours
+// 将name改为你自己开原库的名字（jcenter和Maven Central上开原库的名字）
         name = "mvc"
+
+// Replace all labels with yours
+// 将labels改为你自己开原库相关的标签（便于别人搜索到你的开原库）
         labels = ['mvc', 'ThePacific']
         websiteUrl = WEB_SITE_URL
         issueTrackerUrl = ISSUE_TRACKER_URL
